@@ -1,0 +1,29 @@
+uuid: 4a4de7e8-2973-4ff4-a644-7abfb53078ad
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_referencia_licencia
+    - media.type.archivos
+    - taxonomy.vocabulary.licencia
+id: media.archivos.field_referencia_licencia
+field_name: field_referencia_licencia
+entity_type: media
+bundle: archivos
+label: 'referencia licencia'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      licencia: licencia
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

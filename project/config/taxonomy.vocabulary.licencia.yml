@@ -1,0 +1,8 @@
+uuid: 7d2df99b-fe03-4bde-8d65-4df5cdbe3570
+langcode: es
+status: true
+dependencies: {  }
+name: Licencia
+vid: licencia
+description: ''
+weight: 0

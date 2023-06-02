@@ -1,0 +1,11 @@
+uuid: 2292df6a-9ea1-4d96-8a6e-a15222202654
+langcode: es
+status: true
+dependencies:
+  config:
+    - media.type.archivos
+id: media.archivos
+target_entity_type_id: media
+target_bundle: archivos
+default_langcode: site_default
+language_alterable: false

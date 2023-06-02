@@ -1,0 +1,13 @@
+uuid: 4764f717-e46c-402f-82bf-e08aecbc524e
+langcode: es
+status: true
+dependencies: {  }
+id: archivos
+label: Archivos
+description: 'Libros, revistas, ensayos, cuentos y otros.'
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map: {  }
